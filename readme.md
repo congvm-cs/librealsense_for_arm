@@ -15,7 +15,7 @@ Windows | [![Build status](https://ci.appveyor.com/api/projects/status/y9f8qcebn
 
 
 This project is a forked library from librealsense-v1.12.1.
-I fixed and recompiled it for my experiment on Raspberry Pi 4 and Realsense F200. All functions have been reserved such as native streams, synthetic streams, intrinsic/extrinsic calibration information, ...
+I fixed and recompiled it for my experiment on Raspberry Pi 4 and Realsense F200. All functions have been retained such as native streams, synthetic streams, intrinsic/extrinsic calibration information, ...
 
 For more information, you can check out the official repo from `https://github.com/IntelRealSense/librealsense/`
 
@@ -81,7 +81,7 @@ cd librealsense
 ```
 
 Legacy SDK (v1.xx) isn't compatible with lastest linux kernel (v4.19.xx). To make it work, according to `https://github.com/IntelRealSense/librealsense/pull/3929`,
-We need to change a little bit which showed here `https://github.com/IntelRealSense/librealsense/pull/3929/files`
+We need to change the code a bit which are showed here `https://github.com/IntelRealSense/librealsense/pull/3929/files`
 
 And add 2 lines below in `CMakeLists.txt`
 ```
