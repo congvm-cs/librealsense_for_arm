@@ -115,14 +115,10 @@ Checkout the examples from `pyrealsense` repo to make sure everything works.
 ## Compatible Devices
 
 1. RealSense R200 (Not tested)
-2. RealSense F200 (Successful)
+__2. RealSense F200 (Successful)__
 3. RealSense SR300 (Not tested)
 4. RealSense LR200 (Not tested)
 5. [RealSense ZR300] (Not tested)
-
-
-Additional language bindings (experimental, community maintained):
-  * [Python](https://github.com/toinsson/pyrealsense)
 
 ## License
 
