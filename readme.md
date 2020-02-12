@@ -22,7 +22,7 @@ For more information, you can check out the official repo from `https://github.c
 
 ## Installation Guide
 
-I only considered about Linux/Raspbian OS so the document for those is here: `./doc/installation.md`
+Reprequisites for librealsense are written here: `./doc/installation.md`
 
 ### 1. Re-install uvc-video
 
@@ -115,7 +115,7 @@ Checkout the examples from `pyrealsense` repo to make sure everything works.
 ## Compatible Devices
 
 1. RealSense R200 (Not tested)
-__2. RealSense F200 (Successful)__
+2. __RealSense F200 (Successful)__
 3. RealSense SR300 (Not tested)
 4. RealSense LR200 (Not tested)
 5. [RealSense ZR300] (Not tested)
