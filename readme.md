@@ -26,7 +26,7 @@ Reprequisites for librealsense are written here: `./doc/installation.md`
 
 ### 1. Re-install uvc-video
 
-To make F200 work on Raspbian, uvc-video should be re-compiled and installed. `https://eleccelerator.com/wiki/index.php?title=Raspbian_Buster_ROS_RealSense#Patching_uvcvideo`
+To get F200 working on Raspbian, uvc-video should be re-compiled and installed. `https://eleccelerator.com/wiki/index.php?title=Raspbian_Buster_ROS_RealSense#Patching_uvcvideo`
 
 ```
 Patching uvcvideo
@@ -114,7 +114,7 @@ Checkout the examples from `pyrealsense` repo to make sure everything works.
 
 ## Compatible Devices
 
-1. RealSense R200 (Not tested)
+1. __RealSense R200 (Successful)__
 2. __RealSense F200 (Successful)__
 3. RealSense SR300 (Not tested)
 4. RealSense LR200 (Not tested)
