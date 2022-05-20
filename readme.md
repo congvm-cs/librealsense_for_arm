@@ -1,13 +1,5 @@
 # Intel® RealSense™ Cross Platform API for ARM
 
-[ ![License] [license-image] ] [license]
-
-[release-image]: http://img.shields.io/badge/release-1.12.0-blue.svg?style=flat
-[releases]: https://github.com/IntelRealSense/librealsense/releases
-
-[license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
-[license]: LICENSE
-
 Platform | Build Status |
 -------- | ------------ |
 Linux and OS X | [![Build Status](https://travis-ci.org/IntelRealSense/librealsense.svg?branch=master)](https://travis-ci.org/IntelRealSense/librealsense) |
@@ -17,8 +9,9 @@ Windows | [![Build status](https://ci.appveyor.com/api/projects/status/y9f8qcebn
 This project is a forked library from librealsense-v1.12.1.
 I fixed and recompiled it for my experiment on Raspberry Pi 4 and Realsense F200. All functions have been retained such as native streams, synthetic streams, intrinsic/extrinsic calibration information, ...
 
-For more information, you can check out the official repo from `https://github.com/IntelRealSense/librealsense/`
+For more information, you can check out the official repo from `https://github.com/IntelRealSense/librealsense/`.
 
+If you find this repo helpful for you, please click the star button. 
 
 ## Installation Guide
 
