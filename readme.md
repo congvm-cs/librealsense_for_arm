@@ -6,7 +6,7 @@ Linux and OS X | [![Build Status](https://travis-ci.org/IntelRealSense/librealse
 Windows | [![Build status](https://ci.appveyor.com/api/projects/status/y9f8qcebnb9v41y4?svg=true)](https://ci.appveyor.com/project/ddiakopoulos/librealsense) |
 
 
-This project is a forked library from librealsense-v1.12.1.
+This project is a forked library from `librealsense-v1.12.1`.
 I fixed and recompiled it for my experiment on Raspberry Pi 4 and Realsense F200. All functions have been retained such as native streams, synthetic streams, intrinsic/extrinsic calibration information, ...
 
 For more information, you can check out the official repo from `https://github.com/IntelRealSense/librealsense/`.
@@ -15,9 +15,10 @@ If you find this repo helpful for you, please click the star button.
 
 ## Installation Guide
 
+### 1. Reprequisites
 Reprequisites for librealsense are written here: `./doc/installation.md`
 
-### 1. Re-install uvc-video
+### 2. Re-install uvc-video
 
 To get F200 working on Raspbian, uvc-video should be re-compiled and installed. `https://eleccelerator.com/wiki/index.php?title=Raspbian_Buster_ROS_RealSense#Patching_uvcvideo`
 
@@ -65,7 +66,7 @@ Reboot!
 
 ```
 
-### 2. Download and compile librealsense v1.12.1
+### 3. Download and compile librealsense v1.12.1
 
 
 ```
@@ -95,7 +96,7 @@ sudo ldconfig
 
 then `cd example/` and run some examples to check whether the SDK works or not.
 
-### 3. Install pyrealsense
+### 4. Install pyrealsense
 
 ```
 pip3 install numpy cython
